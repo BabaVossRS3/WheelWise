@@ -1,16 +1,13 @@
 {
   "name": "frontend",
   "private": true,
-  "homepage": "https://BabaVossRS3.github.io/WheelWise/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "build": "vite build"
   },
   "dependencies": {
     "react": "^18.3.1",
